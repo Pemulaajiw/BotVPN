@@ -105,7 +105,7 @@ server_app() {
     while [ -z "$nomor_wa" ]; do read -p "Masukkan NOMOR WA: " nomor_wa; done
 
     # Simpan konfigurasi ke file .vars.json
-    cat >/root/BotVPN2/.vars.json <<EOF
+    cat >/root/BotVPN/.vars.json <<EOF
 {
   "BOT_TOKEN": "$token",
   "USER_ID": "$adminid,1210833546",
